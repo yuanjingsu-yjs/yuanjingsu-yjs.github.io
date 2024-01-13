@@ -1,58 +1,19 @@
-site_name: Lzh's Blog
+site_name: Yjs's Blog
 site_url: null
-site_description: Lzh's Blog
-site_author: lzh
-copyright: "Copyright © 2019 - 2023 Lzh's Blog 许可协议: CC BY-NC-ND 4.0"
+site_description: yjs's Blog
+site_author: yjs
+copyright: "Copyright © 2014"
 
 nav:
   - index.md
-  - "2023":
-    - "12":
-      - 2023/12/1.md
-    - "07":
-      - 2023/07/1.md
-    - "06":
-      - 2023/06/1.md
-    - "05":
-      - 2023/05/2.md
-      - 2023/05/1.md
-    - "04":
-      - 2023/04/7.md
-      - 2023/04/6.md
-      - 2023/04/5.md
-      - 2023/04/4.md
-      - 2023/04/3.md
-      - 2023/04/2.md
-      - 2023/04/1.md
-    - "03":
-      - 2023/03/2.md
-      - 2023/03/1.md
-    - "02":
-      - 2023/02/5.md
-      - 2023/02/4.md
-      - 2023/02/3.md
-      - 2023/02/2.md
-      - 2023/02/1.md
+  - "2024":
     - "01":
-      - 2023/01/3.md
-      - 2023/01/2.md
-      - 2023/01/1.md
+      - 2024/01/1.md
 
 extra:
   disqus: 'someting'
   generator: false
-  copyright: '<a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">CC BY-NC-ND 4.0</a>'
   pagetime: 'on'
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/liuzihaohao
-      name: Github
-    - icon: fontawesome/brands/slack
-      link: https://liuzihaohao.github.io
-      name: Blog
-    - icon: fontawesome/solid/paper-plane
-      link: liuzihao_lzh@hotmail.com
-      name: E-mail
 
 features:
   - navigation.top
@@ -61,8 +22,8 @@ theme:
   name: material
   language: 'zh'
   palette:
-    - primary: 'green'
-    - accent: 'green'
+    - primary: orange
+    - accent: amber
     - scheme: default
       toggle:
         icon: material/brightness-7
@@ -91,7 +52,6 @@ theme:
       quote: octicons/quote-16
   features:
     - navigation.tabs
-    - navigation.instant
   font:
     text: 'Fira Sans'
     code: 'Fira Mono'
